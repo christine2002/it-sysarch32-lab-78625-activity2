@@ -15,11 +15,11 @@ function StudentList() {
     <Row xs={1} md={4} className="g-4">
       {students.map((student, idx) => (
         <Col key={idx}>
-          <Card className="d-flex align-items-center justify-content-center p-3" style={{ height: '100%' }}>
+          <Card className="d-flex align-items-center justify-content-center p-3 text-center" style={{ height: '100%' }}>
             <div style={{ overflow: 'hidden', borderRadius: '50%', width: '150px', height: '150px' }}>
               <Card.Img variant="top" src={student.photoUrl} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
-            <Card.Body className="pt-3"> {/* Add padding top */}
+            <Card.Body> 
               <Card.Title>{student.name}</Card.Title>
               <Card.Text>{student.email}</Card.Text>
             </Card.Body>
