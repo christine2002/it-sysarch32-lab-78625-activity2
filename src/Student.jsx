@@ -4,11 +4,11 @@ import { Card, Col, Row } from 'react-bootstrap';
 function StudentList() {
   // Define the list of students directly inside the component
   const students = [
-    { name: "John Doe", email: "john.doe@example.com", photoUrl: "https://s-i.huffpost.com/gen/845469/images/o-PROFESSIONAL-FB-PHOTOS-facebook.jpg" },
-    { name: "Jane Smith", email: "jane.smith@example.com", photoUrl: "https://s-i.huffpost.com/gen/845469/images/o-PROFESSIONAL-FB-PHOTOS-facebook.jpg" },
-    { name: "Alice Johnson", email: "alice.johnson@example.com", photoUrl: "https://s-i.huffpost.com/gen/845469/images/o-PROFESSIONAL-FB-PHOTOS-facebook.jpg" },
-    { name: "Bob Brown", email: "bob.brown@example.com", photoUrl: "https://s-i.huffpost.com/gen/845469/images/o-PROFESSIONAL-FB-PHOTOS-facebook.jpg" },
-    { name: "Emma Davis", email: "emma.davis@example.com", photoUrl: "https://s-i.huffpost.com/gen/845469/images/o-PROFESSIONAL-FB-PHOTOS-facebook.jpg" }
+    { name: "Ann", email: "Ann.Curtes@example.com", photoUrl: "https://images.summitmedia-digital.com/preview/images/2021/10/05/oct2021-anne-curtis-main-option2.jpg" },
+    { name: "Jane", email: "jane.smith@example.com", photoUrl: "https://www.wallpapertip.com/wmimgs/47-476383_hd-wallpaper-lisa-blackpink.jpg" },
+    { name: "Johnson", email: "johnsonsmith@example.com", photoUrl: "https://lh3.googleusercontent.com/91SlRO-QDssaDCxmxA0NXfdAMLFWfqX9gA7KM4N_RpYZ_n0Om12EgHtdl81lWiIAdwzMBGh5V2Q_cquV_6LDAlaun7rfA_Zc6w=w960-rj-nu-e365" },
+    { name: "Bobby", email: "bobby.brown@example.com", photoUrl: "https://th.bing.com/th/id/OIP.csC7vrx_2brrxcqHj66ZtQHaLH?rs=1&pid=ImgDetMain" },
+    { name: "Emma", email: "emma.davis@example.com", photoUrl: "https://th.bing.com/th/id/OIP.Ede9_F5yPMT7NV2jmmjMSQHaE8?rs=1&pid=ImgDetMain" }
   ];
 
   return (
